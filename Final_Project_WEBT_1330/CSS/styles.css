@@ -1,5 +1,5 @@
 body {
-    background-color: #483C32;
+    background-color: #483c32;
 }
 
 h1 {
@@ -15,6 +15,14 @@ nav {
     background-color: white;
     padding: 2px 0;
     text-align: center;
+}
+
+#front_page {
+    display: flex;
+}
+
+.col {
+    border: 2px solid ;
 }
 
 main {
