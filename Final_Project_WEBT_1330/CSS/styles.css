@@ -1,0 +1,35 @@
+body {
+    background-color: #483C32;
+}
+
+h1 {
+    color: #964B00;
+    text-align: center;
+}
+
+#container {
+    background-color: #F0EAD6;
+}
+
+nav {
+    background-color: white;
+    padding: 2px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+section, aside {
+    margin: 20px;
+    padding: 20px;
+}
+
+section {
+    width: 50%;
+}
+
+aside {
+    width: 50%;
+}
