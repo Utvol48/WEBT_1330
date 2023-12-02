@@ -6,6 +6,8 @@ img {
     display: block;
     margin: 0 auto;
     width: 90%;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 h1 {
@@ -32,7 +34,7 @@ nav li {
 nav li a {
     display: inline;
     background-color: white;
-    width: 200px;
+    width: 100%;
     height: 50px;
     padding: 15px;
     line-height: 50px;
