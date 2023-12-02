@@ -34,6 +34,7 @@ nav li a {
     background-color: white;
     width: 200px;
     height: 50px;
+    padding: 15px;
     line-height: 50px;
     font-size:  1.4em;
     font-weight: bold;
@@ -85,7 +86,7 @@ aside {
     margin: 10px;
 }
 
-#main_img_resize {
+.img_resize {
     width: 80%
 }
 
