@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Monoton', sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Monoton&display=swap")
+}
+
 body {
     background-color: #F0EAD6;
 }
@@ -10,12 +15,14 @@ img {
 h1 {
     color: #964B00;
     text-align: center;
+    font-family: 'Monoton', sans-serif;
 }
 
 nav {
     background-color: #483c32;
     padding: 2px 0;
     text-align: center;
+    font-family: 'Monoton', sans-serif;
 }
 
 nav ul {
@@ -42,6 +49,17 @@ nav li a {
     margin: 0 10px;
 }
 
+#main_page {
+    display: flex;
+}
+
+.col {
+    border: 2px solid #483c32;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 main {
     display: flex;
 }
@@ -60,8 +78,20 @@ aside {
     width: 50%;
 }
 
+#main_img_resize {
+    width: 80%
+}
+
+footer {
+    background-color: #483c32;
+    text-align: center;
+    padding: 40px 0;
+    color: #F0EAD6;
+    font-weight: bold;
+}
+
 .button {
-    display: block;
+    display:inline-block;
     width: 100px;
     height: 20px;
     background-color: white;
