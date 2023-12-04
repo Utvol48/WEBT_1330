@@ -91,3 +91,47 @@ footer {
     color: #F0EAD6;
     font-weight: bold;
 }
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 175px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid #964B00;
+    }
+
+    main {
+        display: flex;
+    }
+    
+    section,
+    aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #964B00;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 30%;
+    }
+
+    aside {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .col {
+        border: 2px solid #964B00;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+}
