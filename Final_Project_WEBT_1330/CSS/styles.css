@@ -58,16 +58,6 @@ nav li a {
     vertical-align: middle;
 }
 
-.notes {
-    line-height: 50px;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #964B00;
-    vertical-align: middle;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
 main {
     display: flex;
 }
@@ -80,6 +70,7 @@ section, aside {
 
 section {
     width: 50%;
+    color: #964B00;
 }
 
 aside {
